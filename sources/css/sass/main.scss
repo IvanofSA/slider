@@ -1,0 +1,134 @@
+
+.sliders__wrap {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-landing {
+  width: 100%;
+  //max-width: 1080px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.slider__list-landing {
+  position: relative;
+  width: 100%;
+  //list-style: none;
+  //padding: 0;
+  //margin: 0;
+}
+
+.slider__item-landing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  //background: #000;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  &.active {
+    z-index: 1;
+    position: relative;
+  }
+
+  &.inslide {
+    z-index: 2;
+  }
+}
+
+
+
+
+.one {
+  background: blue;
+  width: 100%;
+
+  height: 300px;
+}
+.two {
+  background: yellow;
+  width: 100%;
+
+  height: 300px;
+}
+.thried {
+  background: green;
+  width: 100%;
+
+  height: 300px;
+}
+.sliders__controls-buttons {
+  position: absolute;
+  display: block;
+  z-index: 30;
+  width: 25px;
+  height: 25px;
+  top: 49%;
+  z-index: 10;
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.sliders__controls-buttons-prev {
+  left: 0px;
+  background: #000;
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.sliders__controls-buttons-next {
+  right: 5px;
+  background: #000;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.sliders__controls-buttons-prev:hover {
+  background: #000;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.sliders__controls-buttons-next:hover {
+  background: #000;
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.slider__dots {
+  text-align: center;
+  margin: auto;
+  
+  &-item {
+    display: inline-block;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #ff9933;
+  }
+
+  .active {
+    background: #000;
+  }
+
+}

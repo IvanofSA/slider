@@ -1,0 +1,24 @@
+extends layout/template
+
+block vars
+    - var page = 'index'
+    - theme = 'theme'
+
+block head
+    script(src="/js/main.bundle.js")
+
+block content
+
+    .slider-landing
+        .sliders__wrap
+            ul.slider__list-landing
+                li.slider__item-landing.one.active
+                li.slider__item-landing.two
+                li.slider__item-landing.thried
+            ul.slider__dots
+            .sliders__controls
+                a.sliders__controls-buttons.sliders__controls-buttons-prev(href='')
+                a.sliders__controls-buttons.sliders__controls-buttons-next(href='')
+
+
+

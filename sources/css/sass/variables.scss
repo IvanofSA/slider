@@ -1,0 +1,109 @@
+//screen resolution
+$mobile: "(min-width: 320px) and (max-width: 499px)";
+$tablet: "(min-width: 500px) and (max-width: 1279px)";
+$desktop: "(min-width: 1280px)";
+
+//// media queries
+//$mobile-small: "(min-width: 320px) and (max-width: 459px)";
+//$mobile-middle: "(min-width: 460px) and (max-width: 580px)";
+//$start-mobile: "(min-width: 320px) and (max-width: 799px)";
+//$mobile-landscape: "(min-width: 320px) and (max-width: 799px) and (orientation: landscape)";
+//$mobile-portrait: "(min-width: 320px) and (max-width: 799px) and (orientation: portrait)";
+//
+//$start-desktop: "screen and (min-width: 800px)";
+//$desktop-xs: "screen and (max-width: 1000px)";
+//$desktop-s: "screen and (max-width: 1100px)";
+//$desktop-m: "screen and (max-width: 1200px)";
+//$desktop-l: "screen and (max-width: 1299px)";
+//$desktop-xl: "screen and (min-width: 1300px)";
+//
+//$desktop-h-xs: "screen and (max-height: 740px)";
+//$desktop-h-s: "screen and (max-height: 840px)";
+//$desktop-h-m: "screen and (max-height: 880px)";
+//$desktop-h-l: "screen and (max-height: 919px)";
+//$desktop-h-xl: "screen and (min-height: 920px)";
+
+//colors
+$green: #79b827;
+$green--dark: #256622;
+$orange: #f7931e;
+$blue: #1e9ef7;
+$gray: #a2a2a2;
+$gray--light: #f8f8f8;
+$white: rgba(255, 255, 255, 1);
+$black: #000000;
+
+//fonts
+//@font-face {
+//    font-family: 'appetite';
+//    src: url('/fonts/appetite_italic-webfont.woff2') format('woff2'),
+//    url('/fonts/appetite_italic-webfont.woff') format('woff'),
+//    url('/fonts/appetite_italic-webfont.svg#appetiteitalic') format('svg');
+//    font-weight: 400;
+//    font-style: italic;
+//
+//}
+//
+//@font-face {
+//    font-family: 'appetite';
+//    src: url('/fonts/appetite_regular-webfont.woff2') format('woff2'),
+//    url('/fonts/appetite_regular-webfont.woff') format('woff'),
+//    url('/fonts/appetite_regular-webfont.svg#appetiteregular') format('svg');
+//    font-weight: 400;
+//    font-style: normal;
+//
+//}
+//
+//@font-face {
+//    font-family: 'Circe';
+//    src: url('/fonts/subset-Circe-Bold.woff2') format('woff2'),
+//    url('/fonts/subset-Circe-Bold.woff') format('woff'),
+//    url('/fonts/subset-Circe-Bold.svg#Circe-Bold') format('svg');
+//    font-weight: 700;
+//    font-style: normal;
+//}
+//
+//@font-face {
+//    font-family: 'Circe';
+//    src: url('/fonts/subset-Circe-Light.woff2') format('woff2'),
+//    url('/fonts/subset-Circe-Light.woff') format('woff'),
+//    url('/fonts/subset-Circe-Light.svg#Circe-Light') format('svg');
+//    font-weight: 300;
+//    font-style: normal;
+//}
+//
+//@font-face {
+//    font-family: 'Circe';
+//    src: url('/fonts/subset-Circe-Regular.woff2') format('woff2'),
+//    url('/fonts/subset-Circe-Regular.woff') format('woff'),
+//    url('/fonts/subset-Circe-Regular.svg#Circe-Regular') format('svg');
+//    font-weight: 400;
+//    font-style: normal;
+//}
+//
+//@font-face {
+//    font-family: 'Circe';
+//    src: url('/fonts/subset-Circe-Thin.woff2') format('woff2'),
+//    url('/fonts/subset-Circe-Thin.woff') format('woff'),
+//    url('/fonts/subset-Circe-Thin.svg#Circe-Thin') format('svg');
+//    font-weight: 100;
+//    font-style: normal;
+//}
+//
+//@font-face {
+//    font-family: 'Circe';
+//    src: url('/fonts/subset-Circe-ExtraBold.woff2') format('woff2'),
+//    url('/fonts/subset-Circe-ExtraBold.woff') format('woff'),
+//    url('/fonts/subset-Circe-ExtraBold.svg#Circe-ExtraBold') format('svg');
+//    font-weight: 800;
+//    font-style: normal;
+//}
+//
+//@font-face {
+//    font-family: 'Circe';
+//    src: url('/fonts/subset-Circe-ExtraLight.woff2') format('woff2'),
+//    url('/fonts/subset-Circe-ExtraLight.woff') format('woff'),
+//    url('/fonts/subset-Circe-ExtraLight.svg#Circe-ExtraLight') format('svg');
+//    font-weight: 200;
+//    font-style: normal;
+//}

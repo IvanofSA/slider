@@ -1,0 +1,36 @@
+- var theme = '';
+- var page = '';
+block vars
+
+doctype html
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if gt IE 8]><html><![endif]-->
+html
+    head
+        meta(charset='UTF-8')/
+        meta(name='viewport', content='width=device-width')/
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')/
+        link(rel='stylesheet', href='/css/style.css')/
+        script(src='//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js')
+
+        //script(src='/js/vendor.js')
+        title #{page}
+
+        block head
+
+    body(class=theme)
+        .wrapper(data-auth='1')
+
+            .website
+
+                //include blocks/browser-popup
+
+                block header
+
+                block content
+
+            block footer
+
+
+        //script(src='/js/main.bundle.js')
+        //script(src='/js/vendor.js')
